@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gerador de Senhas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <img src="logo.png" alt="Logo da Instituição" class="logo">
+
+  <h1>Gerador de Senhas</h1>
+  <button onclick="gerarSenha('N')">Senha Normal</button>
+  <button onclick="gerarSenha('P')">Senha Prioritária</button>
+
+  <div id="senha">Última Senha: -</div>
+  <div id="ultimas">
+    <h3>Últimas Senhas Geradas</h3>
+    <ul id="listaSenhas">
+      <li>-</li>
+      <li>-</li>
+      <li>-</li>
+    </ul>
+  </div>
+
+</body>
+</html>

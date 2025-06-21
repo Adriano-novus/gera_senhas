@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 2rem auto;
+  max-width: 180px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+h1 {
+  color: #003b73;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 1rem 2.5rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 123, 255, 0.4);
+}
+
+#senha {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004080;
+}
+
+#ultimas {
+  margin-top: 1.8rem;
+  padding: 1rem;
+  background-color: #f9fbff;
+  border: 1px solid #cce0ff;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#ultimas h3 {
+  margin-top: 0;
+  color: #003b73;
+  font-size: 1.2rem;
+}
+
+#ultimas ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+#ultimas li {
+  margin: 6px 0;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
