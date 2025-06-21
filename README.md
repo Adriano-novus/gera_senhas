@@ -1,4 +1,5 @@
 📄 Documentação do Sistema: Gerador de Senhas
+
 📌 Visão Geral
 Este sistema web foi desenvolvido para ambientes de atendimento ao público — como cartórios, clínicas ou serviços de triagem — com o objetivo de gerar senhas de atendimento do tipo Normal (N) e Prioritária (P). Ele exibe a última senha gerada, mantém histórico das 3 últimas senhas chamadas, e gera automaticamente o PDF da senha pronta para impressão.
 
