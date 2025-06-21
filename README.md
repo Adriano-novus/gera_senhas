@@ -4,6 +4,11 @@ Documentação do Sistema: Gerador de Senhas
 📌 Visão Geral
 Este sistema web foi desenvolvido para facilitar o atendimento presencial em ambientes como cartórios, clínicas ou serviços públicos, permitindo a geração e impressão de senhas do tipo Normal (N) e Prioritária (P), além de exibir as 3 últimas senhas geradas.
 
+🌐 Acesso Online
+O sistema está disponível publicamente na web e pode ser acessado diretamente pelo navegador:
+🔗 Acesse aqui: https://adriano-novus.github.io/gera_senhas/
+Recomenda-se utilizar o Google Chrome ou Microsoft Edge para melhor compatibilidade com impressão via PDF.
+
 📁 Estrutura de Arquivos
 /sistema-senhas/
 ├── index.html         # Interface principal
